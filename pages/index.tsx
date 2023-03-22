@@ -8,12 +8,6 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  useEffect(() => {
-    fetch("https://proxy-server-steel-nu.vercel.app/auth", {
-      credentials: "include",
-    });
-  }, []);
-
   const handleAuth = () => {
     fetch("https://proxy-server-steel-nu.vercel.app/auth", {
       credentials: "include",
