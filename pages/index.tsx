@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   useEffect(() => {
-    fetch("https://proxy-server-git-main-suhravdev.vercel.app/auth", {
+    fetch("https://proxy-server-steel-nu.vercel.app/auth", {
       credentials: "include",
     });
   }, []);
